@@ -1,0 +1,262 @@
+[
+{
+    "model": "games.game",
+    "pk": 1,
+    "fields": {
+        "nombre": "Filament",
+        "imagen": "games/Filament.jpg",
+        "descripcion": "Filament es un juego de puzles tranquilo, con una historia profunda y completamente narrado, en el que tendr\u00e1s que resolver una serie de puzles con cables mientras exploras una nave espacial aparentemente abandonada.",
+        "precio": 45000,
+        "categoria": "Juegos de puzzle",
+        "existencia": 30,
+        "slug": "Filament"
+    }
+},
+{
+    "model": "games.game",
+    "pk": 2,
+    "fields": {
+        "nombre": "Unravel",
+        "imagen": "games/puzle_Unravel.jpg",
+        "descripcion": "El juego de plataforma Unravel conoceremos a Yarny, un simp\u00e1tico y adorable personaje nuevo hecho de una \u00fanica hebra de lana que se va desenrollando progresivamente. Inspirado en los impresionantes e irrepetibles paisajes n\u00f3rdicos.",
+        "precio": 35000,
+        "categoria": "Juegos de puzzle",
+        "existencia": 20,
+        "slug": "Unravel"
+    }
+},
+{
+    "model": "games.game",
+    "pk": 3,
+    "fields": {
+        "nombre": "No one lives forever",
+        "imagen": "games/SNo-one-lives-forever.jpg",
+        "descripcion": "The Operative: No One Lives Forever, tambi\u00e9n conocido como NOLF, es un juego de disparos / sigilo en primera persona creado por Monolith Productions y publicado por Fox Interactive para PC en 2000.",
+        "precio": 40000,
+        "categoria": "Juegos de accion",
+        "existencia": 20,
+        "slug": "No-one-lives-forever"
+    }
+},
+{
+    "model": "games.game",
+    "pk": 4,
+    "fields": {
+        "nombre": "Half-Life: Alyx",
+        "imagen": "games/alyx.jpg",
+        "descripcion": "The Operative: No One Lives Forever, tambi\u00e9n conocido como NOLF, es un juego de disparos / sigilo en primera persona creado por Monolith Productions y publicado por Fox Interactive para PC en 2000.",
+        "precio": 50000,
+        "categoria": "Juegos de accion",
+        "existencia": 10,
+        "slug": "Half-Life-Alyx"
+    }
+},
+{
+    "model": "games.game",
+    "pk": 5,
+    "fields": {
+        "nombre": "Worms 3",
+        "imagen": "games/worms3.jpg",
+        "descripcion": "\u201cWorms\u2122\u201d en 3D! \u00a1Carga tus armas y experimenta una nueva dimensi\u00f3n de acci\u00f3n de dibujos animados basada en turnos! Al hacer el juego en 3D, se crean nuevas posibilidades estrat\u00e9gicas y de diversi\u00f3n.",
+        "precio": 70000,
+        "categoria": "Juegos de accion",
+        "existencia": 20,
+        "slug": "Worms-3"
+    }
+},
+{
+    "model": "games.game",
+    "pk": 6,
+    "fields": {
+        "nombre": "BioShock",
+        "imagen": "games/bishop.jpg",
+        "descripcion": "BioShock es un shooter distinto a todos los que has jugado antes, lleno de armas y t\u00e1cticas nunca vistas. Tendr\u00e1s un completo arsenal a tu disposici\u00f3n: desde sencillos rev\u00f3lveres a lanzagranadas y lanzadores de productos qu\u00edmicos.",
+        "precio": 50000,
+        "categoria": "Juegos de accion",
+        "existencia": 15,
+        "slug": "BioShock"
+    }
+},
+{
+    "model": "games.game",
+    "pk": 7,
+    "fields": {
+        "nombre": "Unity of Command",
+        "imagen": "games/unity_of_command_II.jpg",
+        "descripcion": "El juego Unity of Command II te permite tomar el mando de los aliados occidentales durante la Segunda Guerra Mundial. Manejar\u00e1s las divisiones de tu ej\u00e9rcito, as\u00ed como su suministro y log\u00edstica.",
+        "precio": 45000,
+        "categoria": "Juegos de simulacion",
+        "existencia": 15,
+        "slug": "Unity-of-Command"
+    }
+},
+{
+    "model": "games.game",
+    "pk": 8,
+    "fields": {
+        "nombre": "Sims 4",
+        "imagen": "games/Sim_4.jpg",
+        "descripcion": "The sims 4 Da rienda suelta a tu imaginaci\u00f3n y crea un mundo de Sims totalmente \u00fanico. Explora y personaliza todos los detalles, desde tus Sims a sus hogares y mucho m\u00e1s.",
+        "precio": 30000,
+        "categoria": "Juegos de simulacion",
+        "existencia": 10,
+        "slug": "sims-4"
+    }
+},
+{
+    "model": "games.game",
+    "pk": 9,
+    "fields": {
+        "nombre": "Simcity",
+        "imagen": "games/sim_city.jpg",
+        "descripcion": "El juego SimCity\u2122  en este pr\u00e1ctico pack. Crea, haz crecer, y llena de vida tu entorno urbano ideal. Enfr\u00e9ntate a desastres tanto reales como fant\u00e1sticos. Gobierna tu propia metr\u00f3polis virtual con SimCity.",
+        "precio": 35000,
+        "categoria": "Juegos de simulacion",
+        "existencia": 10,
+        "slug": "Simcity"
+    }
+},
+{
+    "model": "games.game",
+    "pk": 10,
+    "fields": {
+        "nombre": "Silent Hunter III",
+        "imagen": "games/silent_hunter_III.jpg",
+        "descripcion": "El rey de la simulaci\u00f3n en submarinos regresa con un motor gr\u00e1fico en 3D totalmente nuevo, nuevos comandos para la tripulaci\u00f3n y acci\u00f3n naval de la Segunda Guerra Mundial m\u00e1s realista que nunca.",
+        "precio": 45000,
+        "categoria": "Juegos de simulacion",
+        "existencia": 20,
+        "slug": "Silent-Hunter-III"
+    }
+},
+{
+    "model": "games.game",
+    "pk": 11,
+    "fields": {
+        "nombre": "Football PES 2020",
+        "imagen": "games/football_pes_2020.jpg",
+        "descripcion": "\u00a1Disfruta del juego de f\u00fatbol m\u00e1s realista y aut\u00e9ntico con eFootball PES 2020, ganador del premio \u2018E3 Best Sports Game\u2019! Juega usando los equipos m\u00e1s importantes del mundo, como el FC Barcelona.",
+        "precio": 30000,
+        "categoria": "Juegos de deportes",
+        "existencia": 10,
+        "slug": "Football-PES-2020"
+    }
+},
+{
+    "model": "games.game",
+    "pk": 12,
+    "fields": {
+        "nombre": "Super Mega Baseball 3",
+        "imagen": "games/super_mega_baseball_3.jpg",
+        "descripcion": "La serie con la simulaci\u00f3n en el campo m\u00e1s profunda hasta la fecha, modos de juego completos en l\u00ednea y fuera de l\u00ednea que incluyen un nuevo modo de franquicia y gr\u00e1ficos muy mejorados.",
+        "precio": 40000,
+        "categoria": "Juegos de deportes",
+        "existencia": 12,
+        "slug": "Super-Mega-Baseball-3"
+    }
+},
+{
+    "model": "games.game",
+    "pk": 13,
+    "fields": {
+        "nombre": "Tony Hawks Pro Skater 2",
+        "imagen": "games/tony_hawks_pro_skater_2.jpg",
+        "descripcion": "Domina tu personaje de skate y golpea y rueda  por los puntos calientes internacionales de Marsella, Nueva York y Venice Beach mientras compites contra una lista completa de los mejores patinadores profesionales del mundo.",
+        "precio": 30000,
+        "categoria": "Juegos de deportes",
+        "existencia": 10,
+        "slug": "Tony-Hawks-Pro-Skater-2"
+    }
+},
+{
+    "model": "games.game",
+    "pk": 14,
+    "fields": {
+        "nombre": "Ori and the Will of the Wisps",
+        "imagen": "games/ori.jpg",
+        "descripcion": "No es la primera vez que el peque\u00f1o Ori se enfrenta al peligro, pero cuando un vuelo desafortunado ponga en riesgo a la buhita Ku, va a hacer falta algo m\u00e1s que valor para volver.",
+        "precio": 45000,
+        "categoria": "Juegos de aventura",
+        "existencia": 16,
+        "slug": "Ori-and-the-Will-of-the-Wisps"
+    }
+},
+{
+    "model": "games.game",
+    "pk": 15,
+    "fields": {
+        "nombre": "Mission: it's complicated",
+        "imagen": "games/mision.jpg",
+        "descripcion": "Es una novela visual sobre c\u00f3mo enamorar a los superh\u00e9roes y las travesuras que suceden en el camino. Env\u00eda a tus h\u00e9roes a misiones rid\u00edculas por la noche e intenta evitar que se lastimen.",
+        "precio": 40000,
+        "categoria": "Juegos de aventura",
+        "existencia": 10,
+        "slug": "Mission-its-complicated"
+    }
+},
+{
+    "model": "games.game",
+    "pk": 16,
+    "fields": {
+        "nombre": "Six Ages",
+        "imagen": "games/six_ages.jpg",
+        "descripcion": "Lleva a tu clan a la leyenda o la oscuridad. Six Ages: Ride Like the Wind es un juego de estrategia de cuentos que te sumerge en una tierra de antiguos dioses y magia.",
+        "precio": 45000,
+        "categoria": "Juegos de aventura",
+        "existencia": 10,
+        "slug": "Six-Ages"
+    }
+},
+{
+    "model": "games.game",
+    "pk": 17,
+    "fields": {
+        "nombre": "Bloodstained: Ritual of the Night",
+        "imagen": "games/plataforma_Bloodstained.jpg",
+        "descripcion": "El juego de aventura Bloodstained es un RPG de acci\u00f3n de desplazamiento lateral centrado en la exploraci\u00f3n, y contiene los elementos m\u00e1s populares del g\u00e9nero Metroidvania en un solo juego repleto de contenido.",
+        "precio": 45000,
+        "categoria": "Juegos de plataformas",
+        "existencia": 10,
+        "slug": "Bloodstained-Ritual-of-the-Night"
+    }
+},
+{
+    "model": "games.game",
+    "pk": 18,
+    "fields": {
+        "nombre": "Yooka-Laylee and the impossible Lair",
+        "imagen": "games/plataforma_Yooka-Laylee_.jpg",
+        "descripcion": "Yooka-Laylee y la guarida imposible es un juego de plataformas de aventuras completamente nuevo de la mano de algunos de los talentos creativos m\u00e1s importantes detr\u00e1s de Donkey Kong Country.",
+        "precio": 30000,
+        "categoria": "Juegos de plataformas",
+        "existencia": 18,
+        "slug": "Yooka-Laylee-and-the-impossible-Lair"
+    }
+},
+{
+    "model": "games.game",
+    "pk": 19,
+    "fields": {
+        "nombre": "The pedestrian",
+        "imagen": "games/plataforma_pedestrian.jpg",
+        "descripcion": "The Pedestrian es un juego de plataformas de rompecabezas de desplazamiento lateral 2.5D. Eres el peat\u00f3n! Ingrese a un mundo 3D din\u00e1mico con gr\u00e1ficos impresionantes y rompecabezas desafiantes. Juegas reorganizando y volviendo a conectar las se\u00f1ales.",
+        "precio": 35000,
+        "categoria": "Juegos de plataformas",
+        "existencia": 10,
+        "slug": "The-pedestrian"
+    }
+},
+{
+    "model": "games.game",
+    "pk": 20,
+    "fields": {
+        "nombre": "Tetris effect",
+        "imagen": "games/puzle_tetri.jpg",
+        "descripcion": "Tetris Effect es el legendario Tetris como nunca lo has visto, o\u00eddo ni sentido jam\u00e1s: una reinvenci\u00f3n incre\u00edblemente adictiva, \u00fanica y absolutamente extraordinaria del juego de puzle m\u00e1s popular de todos los tiempos.",
+        "precio": 40000,
+        "categoria": "Juegos de puzzle",
+        "existencia": 20,
+        "slug": "Tetris-effect"
+    }
+}
+]

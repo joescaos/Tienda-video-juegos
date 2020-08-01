@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% load humanize %}
+
+{% block content %}
+<div class="col-sm col-md-4 justify-content-center">
+    <img src="{{game.imagen.url}}" alt="" class="img-fluid mx-auto d-block">
+</div>
+<div class="col-sm">
+    <div class="h1 text-light text-center mb-3">
+        {{game.nombre}}
+    </div>
+    <div class="h5 text-light mt-4 mb-4">
+        Precio: <span class="text-dandet">$ {{game.precio | intcomma}}</span>
+    </div>
+    <div>
+        <p class="text-light">{{game.descripcion}}</p>
+    </div>
+    <div class="mt-2">
+        <a href="{% url 'carts:cart' %}" class="btn btn-info">Ver carrito</a>
+    </div>
+</div>
+
+{% endblock %}

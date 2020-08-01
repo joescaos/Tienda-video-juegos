@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block content %}
+<body class="text-center registro" style="background-color:#19273a;">
+<div class="container"><br><br><br><br>
+  <div class="row justify-content-center">
+    <form class="form-signin" method="POST" style="width: 400px;">
+      {% csrf_token %}
+      <img class="mb-4" src="{% static 'img/logo.png' %}" alt="" width="150" height="150">
+      <h1 class="h4 mb-3 font-weight-normal" style="color: whitesmoke;">Registro nuevo usuario</h1>
+      {% for field in form %}
+      <div class="form-group">
+        {{ field }}
+        {% if field.errors %}
+          {{ field.errors}}
+        {% endif %}
+      </div>
+      {% endfor %}
+      <button class="btn btn-lg btn-primary btn-block" type="submit">Enviar</button>
+      <p class="mt-5 mb-3 text-muted">&copy; 2020</p>
+    </form>
+  </div>
+</div> 
+</body>
+
+{% endblock %}
+

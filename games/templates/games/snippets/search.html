@@ -1,0 +1,8 @@
+<form action="{% url 'juego:search' %}" method="GET">
+    <div class="input-group">
+        <input type="text" name="q" id="" class="form-control" placeholder="Buscar" value="{{query}}">
+        <div class="input-group-append">
+            <input type="submit" value=" Buscar" class="btn btn-primary">
+        </div>
+    </div>
+</form>

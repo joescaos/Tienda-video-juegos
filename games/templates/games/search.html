@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+{% load humanize %}
+{% block content %}
+
+  <div class="col bg-light">
+      <p class="h1">Busqueda de Juegos</p>
+      {% include 'games/snippets/search.html' with query=query %}
+      <hr>
+      <div class="row">
+      {% if object_list %}
+        {% for game in object_list%}
+        <div class="col-4 mt-4">
+          <div class="card-deck">
+            <div class="card">
+              <img src="{{game.imagen.url}}" class="card-img-top" alt="...">
+              <div class="card-body">
+                <a href=""><h5 class="card-title">{{game.nombre}}</h5></a>
+                <p class="card-text text-justify">{{game.descripcion}}</p>
+                <h3 class="text-center text-danger">$ {{game.precio | intcomma }}</h3><br>
+                <div>
+                  {% include 'carts/snippets/addindex.html' %}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+        {% else %}
+        <div>
+          <p class="h3 m-4">Juego no encontrado</p>
+        </div>
+        
+        <div>
+          <p class="h6 m-4"><a href="/">Volver al inicio</a></p>
+        </div>
+        {% endif %}
+      </div>      
+  </div>
+
+{% endblock %}
